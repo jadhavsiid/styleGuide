@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 20px;
+  margin-left: 120px;
+  margin-right: 120px;
+  font-family: "Poppins", serif;
+}
+
+/*! Colors section */
+.colors-section{
+    margin-top: 20px;
+    border: 1px solid black;
+}
+h2#hero{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+div.pallete{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.white-smoke{
+    border: 1px solid lightgray;
+    width: 400px;
+    padding: 5px 20px;
+    text-align: center;
+    margin:20px 2px 25px 10px;
+    background-color: #f5f5f5;
+}
+p#info{
+    font-size: 14px;
+}
+div.malibu{
+    border: 1px solid none;
+    width: 400px;
+    padding: 5px 20px;
+    text-align: center;
+    margin:20px 2px 25px 5px;
+    background-color: #69ADFE;
+}
+div.anakiwa{
+    border: 1px solid none;
+    width: 400px;
+    padding: 5px 20px;
+    text-align: center;
+    margin:20px 2px 25px 5px;
+    background-color: #85EFFF;
+}
+div.selective-yellow{
+    border: 1px solid none;
+    width: 400px;
+    padding: 5px 20px;
+    text-align: center;
+    margin:15px 2px 25px 10px;
+    background-color: #FBBB03;
+}
+div.cod-grey{
+    order: 1px solid none;
+    width: 400px;
+    padding: 5px 20px;
+    text-align: center;
+    margin:15px 2px 25px 5px;
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+/*^ fonts section */
+.fonts-section{
+    margin-top: 10px;
+    border: 1px solid black;
+}
+div.typeface{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.font-1{
+    /* border: 1px solid black; */
+    width: 30%;
+    font-family: "Poppins", serif;
+    margin:24px 2px 25px 10px;
+}
+p#underline{
+    text-decoration: underline;
+    font-size: 18px;
+}
+p#regular{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: regular;
+}
+p#semi-bold{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+p#reg-italic{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: regular;
+    font-style: italic;
+}
+div.font-2{
+    /* border: 1px solid black; */
+    width: 30%;
+    font-family: "Inter", serif;
+    margin:24px 2px 25px 150px;
+}
+div.font-3{
+    /* border: 1px solid black; */
+    width: 35%;
+    font-family: "Fira Code", serif;
+    margin:24px 2px 25px 10px;
+}
+
+/* TODO text-styles section */
+.text-styles{
+    margin-top: 10px;
+    border: 1px solid black;
+}
+h1#heading1{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+li{
+    margin-left: 45px;
+    font-size: 14px;
+}
+li#first-size{
+    margin-top: 18px;
+}
+li#last-size{
+    margin-bottom: 20px;
+}
+h2#heading2{
+    margin-left: 10px;
+    /* margin-top: 10px; */
+    font-size: 18px;
+    font-weight: 500;
+}
+p#para{
+    margin-left: 10px;
+    /* margin-top: 10px; */
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    h1#main-heading{
+        font-size: 20px;
+        text-align: center;
+    }
+    h2#hero{
+        /* font-size: 20px; */
+        text-align: center;
+    }
+    h2#target{
+        margin-bottom: 10px;
+    }
+    p#info{
+        font-size: 8px;
+    }
+    div.white-smoke{
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    div.malibu{
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    div.anakiwa{
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    div.selective-yellow{
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    div.cod-grey{
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    div.font-1{
+        width: 100%;
+    }
+    div.font-2{
+        width: 100%;
+        margin-left: 10px;
+    }
+    div.font-3{
+        width: 100%;
+    }
+    #underline #regular #semi-bold #reg-italic{
+        font-size: 5px;
+    }
+}
